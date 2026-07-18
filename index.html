@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT Banking System - AI Core Processor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="ai-dashboard">
+        <!-- Module Header Area -->
+        <header class="module-header">
+            <div class="title-area">
+                <h2>NEURAL COGNITION & AI CORE PIPELINE</h2>
+                <p>Huokaing Thara Banking System • Real-Time Predictive Risk Metrics & Fraud Analytics</p>
+            </div>
+            <div class="action-buttons">
+                <button id="retrainModelBtn" class="btn-secondary">Retrain Weights</button>
+                <button id="optimizeHyperBtn" class="btn-primary">Optimize Latent Space</button>
+            </div>
+        </header>
+
+        <!-- Model Telemetry Analytics Summary -->
+        <section class="metrics-row">
+            <div class="metric-card">
+                <span class="card-label">Model Evaluation Accuracy</span>
+                <h2 id="modelAccuracyText">99.78%</h2>
+                <p class="card-subtext state-success">▲ Exceeding production safety limits</p>
+            </div>
+            <div class="metric-card">
+                <span class="card-label">Daily Inferences Scaled</span>
+                <h2 id="inferenceCountText">842,901</h2>
+                <p class="card-subtext state-normal">Cognitive routing processing threads</p>
+            </div>
+            <div class="metric-card">
+                <span class="card-label">Anomalous Clusters Tracked</span>
+                <h2 id="anomaliesTrackedText">1</h2>
+                <p class="card-subtext state-warning">Flagged under graph embedding</p>
+            </div>
+        </section>
+
+        <!-- Main Workspace Dual Panel Layout -->
+        <div class="panel-layout">
+            
+            <!-- Dynamic Heuristic Inference Queue Engine -->
+            <section class="data-panel queue-section">
+                <div class="panel-title">
+                    <h3>Cognitive Inference Stream</h3>
+                    <div class="filter-pills" id="aiFilterGroup">
+                        <button class="pill active" data-filter="all">All Targets</button>
+                        <button class="pill" data-filter="anomalous">Anomalous</button>
+                        <button class="pill" data-filter="trusted">Trusted</button>
+                    </div>
+                </div>
+                
+                <div class="table-wrapper">
+                    <table class="ai-table">
+                        <thead>
+                            <tr>
+                                <th>Inference Hash</th>
+                                <th>Vector Domain</th>
+                                <th>Confidence Rating</th>
+                                <th>Vector Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="aiTableBody">
+                            <!-- Populated dynamically via ai_core.js -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Latent Space Weights Architecture Monitor -->
+            <section class="data-panel layer-section">
+                <div class="panel-title">
+                    <h3>Active Neural Layer Gradients</h3>
+                </div>
+                <div class="weights-grid" id="neuralLayerContainer">
+                    <!-- Populated dynamically via ai_core.js -->
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="ai_core.js"></script>
+</body>
+</html>
